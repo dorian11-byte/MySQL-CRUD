@@ -12,10 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WPFDatabse.Clases;
+using MySQL_CRUD.Clases;
 using SQLite;
 
-namespace WPFDatabse
+namespace MySQL_CRUD
 {
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml

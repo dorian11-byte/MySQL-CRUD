@@ -11,10 +11,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using WPFDatabse.Clases;
+using MySQL_CRUD.Clases;
 using SQLite;
 
-namespace WPFDatabse
+namespace MySQL_CRUD
 {
     /// <summary>
     /// Lógica de interacción para Principal.xaml
@@ -45,7 +45,7 @@ namespace WPFDatabse
 
         private void btnAgregar_Click(object sender, RoutedEventArgs e)
         {
-            WPFDatabse.MainWindow form = new WPFDatabse.MainWindow();
+            MySQL_CRUD.MainWindow form = new MySQL_CRUD.MainWindow();
             form.ShowDialog();
         }
 

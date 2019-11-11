@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SQLite;
 
-namespace WPFDatabse.Clases
+namespace MySQL_CRUD.Clases
 {
     class Contactos
     {

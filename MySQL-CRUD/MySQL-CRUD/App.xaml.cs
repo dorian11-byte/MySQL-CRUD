@@ -6,9 +6,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 using SQLite;
-using WPFDatabse;
 
-namespace WPFDatabse
+namespace MySQL_CRUD
 {
     /// <summary>
     /// Lógica de interacción para App.xaml
