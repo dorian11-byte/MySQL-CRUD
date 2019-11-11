@@ -5,8 +5,10 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using SQLite;
+using WPFDatabse;
 
-namespace MySQL_CRUD
+namespace WPFDatabse
 {
     /// <summary>
     /// Lógica de interacción para App.xaml
@@ -16,6 +18,5 @@ namespace MySQL_CRUD
         static string databaseName = "Contactos.db";
         static string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
         public static string databasePath = System.IO.Path.Combine(folderPath, databaseName);
-
     }
 }

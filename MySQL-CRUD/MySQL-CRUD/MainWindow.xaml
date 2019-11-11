@@ -8,8 +8,8 @@
         Title="Contactos" Height="300" Width="300">
     <Grid>
         <StackPanel Margin="10">
-            <TextBox x:Name="txtnombre" Margin="0,0,0,5"/>
-            <TextBox x:Name="txtcorreo" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtNombre" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtCorreo" Margin="0,0,0,5"/>
             <TextBox x:Name="txtTelefono" Margin="0,0,0,5"/>
             <Button Content="Guardar" x:Name="btnguardar" Click="btnguardar_click"/>
         </StackPanel>
